@@ -49,4 +49,34 @@ for coin in coins[::-1]:
   amount = amount % coin
 
 return number_of_coins
+
+Result = 3, Coins = [4, 1, 1]
+
+Example DP:
+
+dp = [0, 0, 0, 0, 0, 0, 0]
+
+i = 0
+
+j = 0
+coin = 1
+aux = coin + i = 1
+dp = [0, 1, 0, 0, 0, 0, 0]
+
+j = 1
+coin = 3
+aux = coin + i = 3
+dp = [0, 1, 0, 1, 0, 0, 0]
+
+j = 2
+coin = 4
+aux = coin + i = 4
+dp = [0, 1, 0, 1, 1, 0, 0]
+
+i = 1
+
+j = 0
+coin = 1
+aux = coin + i = 2
+dp = [0, 1, 2, 1, 1, 0, 0]
 */
