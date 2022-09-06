@@ -15,7 +15,9 @@ Normalmente esse problema pode ser resolvido com um algoritmo ganancioso, mas pa
 baseado em programação dinâmica, como o apresentado nesse trabalho.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+![](./apresentacao/coins-1.png)
+![](./apresentacao/coins-2.png)
 
 ## Instalação 
 **Linguagem**: JavaScript, HTML, CSS <br>
@@ -25,13 +27,14 @@ Para clonar o projeto digite:
 
     git clone https://github.com/projeto-de-algoritmos/PD-Coin-Change
 
-Depois rode o comando para executar o docker da aplicação:
+Depois acesse a pasta **coin_change** e rode o comando para executar a aplicação:
 
-    docker-compose up
+    npm start
 
 Por fim, acesse a porta do frontend e aproveite:
 
     http://localhost:3000/
 
 ## Uso 
+
 Defina quais são os valores que fazem parte da sua base monetária e defina o valor para cálculo do troco, o programa irá retornar uma lista com as moedas necessárias para o troco
